@@ -1,15 +1,15 @@
 {
   "name": "afaf",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "experimental functions host",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Bill Barnes",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^10.11.0",
     "typescript": "^3.0.3"
