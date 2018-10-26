@@ -45,8 +45,8 @@ export function withBindings (
 
 const foo = httpTrigger(
     withBindings(
-        req => Promise.resolve([123, "hello"]),
-        (req, n, s) => Promise.resolve(13),
+        req => Promise.resolve<[number, string]>([123, "hello"]),
+        (req, n, s) => Promise.resolve(n),
         (req, n) =>  Promise.resolve({
             status: n,
             body: n.toString(),
